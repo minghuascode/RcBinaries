@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<title>T6Config</title>
+
+<meta name="keywords" content="Flysky, CT6A, CT6B, EXCEED, T6config, Xheli, Hobbyparts, Hobbypartz, Nitroplanes, Coupons, Align, Clone, 450, 500, RC, Helicopter, EXI, EXI450, EXI500">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="MSHTML 6.00.6000.16788" name="GENERATOR">
+<style type="text/css">BODY {
+FONT-FAMILY: verdana, arial, sans-serif
+}</style></head><body>
+
+<p>http://www.mycoolheli.com/t6config.html 2011-8-7 modified 2 embedded videos into href links</p>
+
+<p><a href="http://www.jdoqocy.com/click-3355217-10474116?SID=101" target="_blank"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid; width: 120px; height: 60px;" src="t6config_files/image-3355217-10594348.jpg" alt="XHeli.com - #1 RC Helicopter Online Shop"></a>&nbsp;<a href="http://www.kqzyfj.com/click-3355217-10543314" target="_top">
+</a><a href="http://www.tkqlhce.com/click-3355217-10511631?SID=101" target="_top"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid; width: 234px; height: 60px;" src="t6config_files/image-3355217-10594334.jpg" alt="5% Off NitroPlanes.com"></a><a href="http://www.kqzyfj.com/click-3355217-10543314" target="_top">&nbsp;</a><a href="http://www.jdoqocy.com/click-3355217-10688148?SID=101"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid; width: 234px; height: 60px;" src="t6config_files/image-3355217-10680161.jpg" alt=""></a><a href="http://www.dpbolvw.net/click-3355217-10440554?sid=110" target="_top">
+</a><a href="http://www.dpbolvw.net/click-3355217-10440554?sid=101"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid; width: 120px; height: 60px;" src="t6config_files/image-3355217-10440554.gif" alt="Once You Know, You Newegg"></a><a href="http://www.kqzyfj.com/click-3355217-10543314" target="_top"> </a><a href="http://www.kqzyfj.com/click-3355217-10483278?sid=101" target="_top">
+<img class=" kfsiizdwvztoczcwtpak" src="t6config_files/image-3355217-10483278.gif" alt="Click here for the Best Buy Free Shipping Offers" height="90" width="120" border="0"></a><a href="http://www.kqzyfj.com/click-3355217-10543314" target="_top">&nbsp;</a></p>
+<p style="font-weight: bold;"><a href="http://www.mycoolheli.com/welcome.html">HOME</a></p>
+<p style="font-weight: bold;"></p>
+<big style="font-weight: bold;"><big>How
+to install and get the PC software working for an Exceed CT6A or CT6B
+Transmitter. Turborix, Exceed are re-branded Flysky Transmitters so
+this install page works with all of those.<br>
+<br>
+6 Channel 2.4Ghz&nbsp;Radio available at:<br>
+<a href="http://www.jdoqocy.com/click-3355217-10474116?SID=101">Xheli.com</a><br>
+<a href="http://www.jdoqocy.com/click-3355217-10688148?SID=101">Hobbypartz.com</a><br>
+<a href="http://www.tkqlhce.com/click-3355217-10511631?SID=101">Nitroplanes.com</a><br>
+</big></big><br>
+NOTE:
+There are 2 types of Transmitters/Receivers. CT6A and CT6B. Although
+the software and USB cable drivers dont' care, the Tx and Rx are not
+compatible with each other. If you have a CT6A, you can't buy an Rx
+that works with a CT6B. <br>
+<br>
+<br>
+<span style="font-weight: bold;">Install Cable Driver
+FIRST:</span><br>
+<ol>
+<li>Get
+your USB cable driver working first. Both the SILabs and Prolific
+drivers are contained in the T6Config download file below. SILabs is
+the driver currently shipping with the CT6B. You want to install the
+driver for the cable before plugging it in. If you don't know which one
+you have, you probably have an SILabs if it is a new purchase.
+&nbsp;Work on the USB cable install first, before moving on.
+&nbsp;</li>
+<li>Once you install the driver, it will appear in your Windows
+Device manager as a USB to Serial COM PORT.</li>
+<li>To view this you do click the following sequence :</li>
+</ol>
+<ul>
+<li>Start</li>
+<li>Control Panel</li>
+<li>System</li>
+<li>Click Hardware Tab</li>
+<li>Click Device manager</li>
+<li>Click the + next to PORTS</li>
+</ul>
+<ol start="4">
+<li>There you will see an SILabs CP210 or Prolific USB to
+serial device. Note the COM PORT it is on.</li>
+<li>Note that T6config does NOT like any serial port ABOVE Port
+9 (<a href="http://www.sgr.info/usbradio/" target="_blank">Digital
+Radio</a>
+does not care). To change the port, within Device manager, Right Mouse
+Click the Prolific or SILabs USB to Serial port then select Properties.
+Now click Port Settings Tab and then the Advanced button. Change the
+COM port to a lower Number. It's ok if it says its being used on this
+list, but don't pick a port that is CURRENTLY in use within the Device
+manager Ports list. &nbsp;Some PCs will change the serial port if
+you
+plug into a different USB connection, Try to connect to the same USB
+connection on your PC or USB hub.</li>
+</ol>
+<br>
+<span style="font-weight: bold;">T6Config</span>
+<ol>
+<li>Install
+T6config.exe from the downloaded T6install.zip file. NOTE: T6Config
+does NOT work with Windows 7 64 bit in my efforts. (NOTE: <a href="http://www.sgr.info/usbradio/" target="_blank">Digital
+Radio</a>
+is a much better alternative program that is free to try but $2 to buy.
+It's WORTH THE $2!!!! I have Digital Radio working on XP as well as a
+Windows 7 64 bit system)</li>
+<li>Plug in your cable and turn on Tx.</li>
+<li>Select your com port (a new com port would have been added
+during the driver install)</li>
+<li>Make sure it's communicating and click GETUSER BEFORE you
+make any changes.</li>
+<li>Save your settings to a default file so you can come back
+to it.</li>
+<li>Do
+not keep saving the same file name, you want to be able to revert back
+to a previous file if you mess something up. Name them incrementally
+Blueray1, Blueray2, etc.</li>
+<li>My default file is particular to MY helicopter, Your
+Endpoints and Subtrims are likely to be different.</li>
+<li>If you have an airplane, change the TYPE to ACRO instead of
+HELI 120</li>
+<li>MODE is your stick mode. USA uses Mode 2 typically.</li>
+</ol>
+<span style="font-weight: bold;"></span><br>
+<br>
+<span style="font-weight: bold;">Manuals:</span><br>
+<a href="http://www.mycoolheli.com/files/T6Manual.pdf">T6 Radio manual link by FlySky</a><br>
+<a target="_blank" href="http://rabbitsvc.com/t6ConfigurationManual.pdf">T6
+Expanded manual</a> written by user Jerry Shaw <br>
+<a href="http://www.mycoolheli.com/files/FS-GT3MANUAL.pdf">FS-GT3 (RC Car Pistol
+Grip Manual)</a><br>
+<br>
+<span style="font-weight: bold;">Downloads:</span><br>
+<a href="http://www.mycoolheli.com/files/T6install.zip">T6config
+Install&nbsp;Files</a><a href="http://www.mycoolheli.com/files/T6install.zip">
+and drivers (Right click Save As)</a> Note: view readme.txt file
+for driver installation<br><a href="http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx" target="_blank">Current SILabs CP210 driver (6.3) for all Windows</a><br>
+<a href="http://www.mycoolheli.com/files/CT6Ausbdriversetup%28newest%29.zip">Older SILabs CP210 XP,
+Vista, Windows 7 compatible driver</a> (driver only) Note that
+these files are included in the T6Config Install files and driver link
+above<br>
+<a href="http://www.mycoolheli.com/files/Prolificwin7x64_drivers.zip">Windows 7 64
+bit drivers for Prolific Cable only</a>
+: If you have Windows 7 64 bit and your Prolific driver is NOT
+installing, try this driver instead. Uninistall the other Prolific
+driver, then install this. Note that T6config will not work with
+Windows 7 64 bit do go and download <a href="http://www.sgr.info/usbradio/" target="_blank">Digital
+Radio</a> instead.<br>
+<br><a style="font-weight: bold;" href="http://www.mycoolheli.com/CT6BHOWTO.html">CT6A/CT6B HOW TO/FAQ page (NEW)</a><br>
+<br>
+<span style="font-weight: bold;">**** Alternative programs to
+T6config ********</span><br>
+<a href="http://www.mycoolheli.com/t6Alternate.html">ALTERNATIVE PC and MAC OSx PROGRAMs TO
+T6CONFIG </a><br>
+<br>
+<span style="font-weight: bold;">Some sample T6Config save
+files:<br>NOTE: You can import these into DIGITAL RADIO, When propted to select a file, for "files of type" :select All files (*.*)<br></span>
+<a href="http://www.mycoolheli.com/files/BlueRay450PE_default.zip">Default T6config
+file for Blueray PE/SE (Right click Save As)</a><br>
+<a href="http://www.mycoolheli.com/files/Genesisfactorydefaults">Genesis T6Config
+file </a><a href="http://www.mycoolheli.com/files/Genesisfactorydefaults">(Right
+click Save As)</a>&nbsp;<br>
+<a href="http://www.mycoolheli.com/files/generic450">Generic 450 T6config file</a>
+If your building your own 450 or other CCPM heli, you can Download and
+load this using T6config, then do the following:<br>
+<a href="http://www.mycoolheli.com/files/T6GenericAcro">Generic 4 channel Acro Plane</a>
+(Right click Save AS) (Fixed wing airplane)<br><br><span style="font-weight: bold;">Text description Files</span><br><a href="http://www.mycoolheli.com/files/blueray%20defaults.txt">Default (Blueray 450)
+in Text format (to manually enter)</a><br>
+<ul>
+<li>Reverse CH1,2 and 6 as needed to get swash moving up/down
+correctly</li>
+<li>Change polarity (add - sign) to CH 1 or CH2 Swash AFR to
+make swash follow cyclic sticks.</li>
+<li>Level the swash using the <a href="http://www.truebloodengineering.com/modules.php?name=Content&amp;pa=showpage&amp;pid=10">trueblood
+method</a></li>
+<li>For more info on generic CCPM setup, <a href="http://www.mycoolheli.com/BasicCCPMsetup.html">click here</a></li>
+<li>Note that the knobs and switches will operate as per the
+operational video below</li>
+</ul>
+<span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="color: red;"></span><br>
+<span style="font-weight: bold;">Info on the Power Meter
+LED</span><br>
+Voltage levels (tested by someone else) of the LED power indicator<br>
+&nbsp;LED steady green : SupplyVoltage &gt; 10.8 Volt<br>
+&nbsp;LED steady orange: 9.4 Volt &lt; SupplyVoltage &lt;
+10.4 Volt<br>
+&nbsp;LED steady red : SupplyVoltage &lt; 9.1 Volt<br>
+It is ok to run NiMh batteries into the orange category but once it
+gets down to the red you should replace IMMEDIATLY!<br>
+<br>
+If you are having trouble installing Drivers, try this:<br>
+<ul>
+<li><a href="http://www.prolific.com.tw/eng/downloads.asp?ID=31">Prolific
+Driver site (try the Updated USB drivers above first)</a></li>
+<li><a href="http://www.cooldrives.com/wividrforprc.html">Vista
+Drivers Link at cooldrives (try the Updated USB drivers above first)</a></li>
+<li>If ser2pl.sys is missing <a href="http://www.mycoolheli.com/files/ser2pl.sys">DOWNLOAD
+HERE</a> and place into C:\windows\system32 folder</li>
+<li>Google "Vista prolific driver"&nbsp;</li>
+<li>Google "SI Labs USB driver" and your operating system ("SI
+LABS USB DRIVER WINDOWS 7" for example)&nbsp;&nbsp;</li>
+</ul>
+NEED HELP? Have a question? Post to the RCGROUPS thread that is specific to THIS
+Transmitter<br>
+<a href="http://www.rcgroups.com/forums/showthread.php?t=967207" target="_blank">RCGROUP THREAD</a><a href="http://www.rcgroups.com/forums/showthread.php?t=967207" target="_blank"></a>
+<div style="margin-left: 40px; text-align: center;"><big style="font-weight: bold;">[RX Connection Drawing Click
+image below to enlarge]</big><br>
+</div>
+<br>
+<div style="text-align: center;"><a href="http://www.mycoolheli.com/PICS/Flyskyrx.gif"><img style="border: 0px solid; width: 320px; height: 239px;" alt="Flysky RX Drawing" src="t6config_files/Flyskyrx.gif"></a><br>
+</div>
+<div style="text-align: center;"><big style="font-weight: bold;"><br>
+[Click image below to enlarge]</big></div>
+<div style="text-align: center;"><a href="http://www.mycoolheli.com/files/T6Radio%20labelsbw.jpg"><img style="border: 0px solid; width: 250px; height: 345px;" alt="Tx 6ch" src="t6config_files/T6Radio%2520labelsbw.jpg"></a><br>
+</div>
+<br>
+<br>
+<div style="text-align: center;">Operational Video (For
+helicopter configuration file)<br>
+<a href="http://www.youtube.com/v/Hrq4jK4z08g&amp;hl=en&amp;fs=1&amp;">video</a>
+<!-- <div role="button" tabindex="0" title="http://www.youtube.com/v/Hrq4jK4z08g&amp;hl=en&amp;fs=1&amp;" style="background: url(&quot;chrome://flashblock/content/flash.png&quot;) no-repeat scroll center center transparent ! important; min-width: 32px ! important; min-height: 32px ! important; width: 425px; height: 344px; border: 1px solid rgb(223, 223, 223); cursor: pointer; overflow: hidden; display: inline-block; visibility: visible ! important; -moz-box-sizing: border-box; margin-right: auto; margin-left: auto;" bgactive="url(chrome://flashblock/content/flashplay.png) no-repeat center" bginactive="url(chrome://flashblock/content/flash.png) no-repeat center"></div><br> -->
+</div>
+<br>
+<div style="text-align: center;">Driver and install video
+(note: this is out dated but I'll leave it here for now):<br>
+<br>
+</div>
+<a href="http://www.youtube.com/v/YaFeqPcZmfk&amp;hl=en&amp;fs=1">video</a>
+<!-- <div role="button" tabindex="0" title="http://www.youtube.com/v/YaFeqPcZmfk&amp;hl=en&amp;fs=1" style="background: url(&quot;chrome://flashblock/content/flash.png&quot;) no-repeat scroll center center transparent ! important; min-width: 32px ! important; min-height: 32px ! important; width: 425px; height: 344px; border: 1px solid rgb(223, 223, 223); cursor: pointer; overflow: hidden; display: inline-block; visibility: visible ! important; -moz-box-sizing: border-box;" bgactive="url(chrome://flashblock/content/flashplay.png) no-repeat center" bginactive="url(chrome://flashblock/content/flash.png) no-repeat center"></div><br> -->
+<p><a href="http://www.jdoqocy.com/click-3355217-10474116?SID=101" target="_blank"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid; width: 728px; height: 90px;" alt="" src="t6config_files/click-3355217-10474116.jpg"></a></p>
+<p><a href="http://www.kqzyfj.com/click-3985057-10594320"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid; width: 450px; height: 74px;" alt="" src="t6config_files/click-3985057-10594320.jpg"></a></p>
+<a href="http://www.jdoqocy.com/click-3355217-10688148?SID=101"><img class=" kfsiizdwvztoczcwtpak" style="border: 0px solid;" alt="Link to HobbyPartz" src="t6config_files/click-3355217-10688148.html"></a>
+</body></html>
