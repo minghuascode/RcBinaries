@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+	
+		<title>NON-USB option to program your FS-CT6A TX! - Beginner's Forum 
+for RC Helicopters, Airplanes &amp; Cars!</title>
+		<link rel="stylesheet" href="discuss_files/wireless.css" 
+type="text/css">
+	</head><body>
+	        <p> search: fs ct6 usb cable. <br /> http://www.rcdiscuss.com/index.php?topic=4879.0;wap2 </p>
+		<p class="catbg">NON-USB option to program your FS-CT6A TX!</p>
+		<p class="windowbg">(1/1)</p>
+		<p class="windowbg">
+			<b>wayshwing</b>:<br>
+			I had seen a LOT of forums online, complaining about the 
+connectibility or lack thereof, of the USB programming cable for the 
+FS-CT6A radio. It seems that the PL-2303 USB chip used in the cable is 
+not Windows friendly, and basically connect to Windows by sheer 
+luck&nbsp; &gt;:(<br><br>After a LOT of researching and trial and error,
+ I fould a $4 solution!!!&nbsp; ;D ;D ;D<br><br>On XHeli.com, they sell 
+whats called a "computer simulator cable" in their flight sim section. 
+It is a 4-pin to serial cable, which connects your radio to the PC using
+ a serial port. NO USB DRIVER NEEDED! I use it and it works great.&nbsp;
+ ;D<br><br>As a word of advice, if you want to use a USB connection (if 
+your PC has no serial ports), uses this $4 serial cable with a separate 
+USB-to-serial adapter. Avoid using a USB adapter which uses the 
+"PL-2303" USB adapter chip. This cheap Taiwanese USB device chip is very
+ unstable, and rarely connects with Windows due to crazy weak 
+compatibility drivers.&nbsp; &gt;:(&nbsp; Find a USB-to-serial adapter 
+that uses a different chip.<br><br>
+		</p>
+		<p class="windowbg2">
+			<b>dditch66</b>:<br>
+			The Transmitter does use serial and that cable supplied as you say is
+ just a serial to USB cable.<br><br>Usually the computer simulator 
+cables are PWM (buddy port) to RS232 serial cables.<br>Have you actually
+ gotten the cable you are talking about working w/ the T6config.exe 
+software yourself?<br><br>I'm an Electrical Engineer and I know alot 
+about both the PWM buddy port for radios as well as Serial and RS232 so 
+I'm wondering if this is a suggestion or have you actually done this 
+before others try this.<br><br>There is a thread on another forum about 
+getting the prolithic driver to work in windows by placing a file on the
+ PC. I know the trick to ANY usb device is to follow the instructions 
+explicitly. Unfortunatly, the blueray did not come w/ the Tx manual on 
+the disk so many people are plugging in the USB cable BEFORE installing 
+the prolithic driver. You should install the prolithic driver FIRST, 
+then plug in the cable. <br><br>David
+		</p>
+		<p class="windowbg">
+			<b>dditch66</b>:<br>
+			Here is the info that some have used to getting the prolithic driver 
+working which I had previously posted on the blueray support thread:<br><br>If
+ you have the RTF version here is the pocedure for using the 
+t6config.exe program and driver:<br><br>&nbsp; Install the USB driver 
+first. (PL-2303 Driver Install.exe)<br>&nbsp; Install the t6config.exe 
+program next.<br>&nbsp; Plug the USB cable into the Computer.<br>&nbsp; 
+Click through the hardware detection screens.<br>&nbsp; After the USB 
+hardware detection screens, turn on the power to the Tx (did you install
+ batteries?)<br>&nbsp; run T6config.exe<br>&nbsp; Click the "Setting" 
+button to select the serial port that was created by the USB install 
+(likely the last on the list).<br><br>&nbsp; If it is communicating, 
+you'll see that moving your sticks make the green/black bars at the top 
+move.<br>&nbsp; Click "Get User" to get the Tx setup loaded into your 
+PC.<br>&nbsp; Click "Save" to save your settings (do this before you 
+make changes so you have your defaults saved).<br><br>&nbsp; Note: Do 
+not edit or save your config files without the Tx plugged in and 
+communicating. I have found at least on my system, if I do this, it does
+ not always save the data right if you work w/ T6config.exe when the 
+transmitter is not plugged in and communicating w/ the PC.<br><br>I did 
+not have any issues w/ installing my USB driver.<br>I installed the 
+driver BEFORE plugging in the USB device.<br>But if you do, I heard this
+ helps.<br>Download the MS Windows serial USB system file, called 
+"ser2pl.sys" from here:<br><br>http://www.floridaprobe.com/usb_install.htm<br><br>The
+ cable uses the Prolific PL-2303 USB chip. Apparently it doesn't always 
+get recognized by Windows, so the system file doesn't get installed 
+correctly.<br><br>Download the system file, and copy the file to your 
+C:\Windows\System32 folder.<br>Plug in the USB cable into your computer,
+ then restart your computer with it plugged in. It "should" get 
+recognized at startup.
+		</p>
+		<p class="windowbg2">
+			<b>yadac123</b>:<br>
+			Most of the time USB device doesn't work is because of software issue
+ already existed on your current computer just like the USB simulator 
+may not work on other computers.<br><br>If the USB cable works on my 
+computer that means the device is a good device. You should windows 
+update and install the intel's latest chipset driver.<br><br>Andy
+		</p>
+		<p class="titlebg">Navigation</p>
+		<p class="windowbg">[0] <a 
+href="http://www.rcdiscuss.com/index.php?PHPSESSID=659ff505de5d8ccec5bf5750ed64b0b0&amp;board=54.0;wap2"
+ accesskey="0">Message Index</a></p>
+	</body></html>

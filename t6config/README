@@ -34,3 +34,53 @@ fms 2 alpha 8.5 downloaded from
 fms 2 beta 7 downloaded on Aug 10 from the same location. saved 
  fms2beta7-fmsdisk01.exe
 
+
+
+2011-11-11
+http://minghuasweblog.wordpress.com/2011/08/10/
+       fms-flight-simulator-with-ct6a-remote-control-transmitter-or-t6a-tx
+FMS Flight Simulator with CT6A Remote Control Transmitter – or T6A TX
+======================================================================
+
+Posted on August 10, 2011 by minghuasweblog
+
+FS-CT6A is a popular 6-channel RC TX, and is also a fabulous device to run 
+a flight simulator on your home computer to get you trained before flying 
+and crashing your real model plane. Here is the recipe. 
+
+FMS: Get this freeware simulator. You can run it on a Windows inside 
+a virtual machine if you use Linux. Both the 2.0 beta7 and 2.0 alpha8.5 
+should work. The alpha8.5 crashes more often on my setup.
+
+PPJoy: This is a virtual joystick simulation software driver for windows. 
+Get it and install. It creates virtual joysticks on a windows machine 
+without a real joystick hardware.
+
+T6sim: It’s a bridging software that receives inputs from your CT6A and 
+feed it to PPJoy. Get this software zip package and unzip it.
+
+Follow the instructions in the install.txt file in t6sim package directory. 
+In PPJoy *create a virtual joystick*. You may need to *reboot* windows at 
+this point. *Run T6sim.exe*, it will be minimized into the system tray. 
+Right click on the systray icon to *configure t6sim*. Then *calibrate t6sim*, 
+*calibrate PPJoy*, and *calibrate Windows game device* so that the CT6A TX 
+sticks generate full range of actions in all the softwares. All the 
+instructions are in the install.txt file from t6sim package, do follow it. 
+Only one tip, when configuring Windows game device, choose test mode and 
+show raw data, then move the sticks on your TX you should see the raw data 
+changing between 0 and 120. If you see the data fixed at a big number, 
+go back to verify configurations and calibrations in t6sim and PPJoy.
+
+It a good idea to also program your TX to use the configuration coming 
+with t6sim. See my previous post about how to program it. Get and save 
+your previous configuration from the TX to a file, then load the 
+T6_calibration.cfg in t6sim package and send it to your TX. This 
+configuration sets all the sticks to their simple mode.
+
+Now, start FMS, you’ll get trained before crashing your real model! Get 
+trained on simulator is a vital step or else you’ll crash your real model 
+a lot.
+
+All the software mentioned above is collected at a github repository. 
+To download a specific file, you click on the file, then click raw it 
+should ask you to save the file.
